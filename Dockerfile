@@ -6,8 +6,6 @@ WORKDIR $GOPATH/src
 
 ENV GO111MODULE=on
 
-RUN mkdir $GOPATH/src/app
-
 WORKDIR $GOPATH/src/app
 
 COPY . .
